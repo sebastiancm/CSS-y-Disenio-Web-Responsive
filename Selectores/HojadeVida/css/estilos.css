@@ -1,0 +1,63 @@
+body
+{
+  background-color: gray;
+}
+footer
+{
+  margin-top: 20px;
+}
+img
+{
+  border-radius: 10px
+}
+#indice{
+
+}
+#Contenedor{
+  font-family: helvetica;
+  font-size: 16px;
+
+}
+#Encabezado{
+  display: block;
+  margin: 0 auto;
+
+}
+.itemIndice{
+  list-style-type: upper-roman;
+}
+.enlace{
+  color: red;
+}
+a[href^='#']{
+  color: blue;
+}
+img[src$='.svg']{
+  border-radius: 50px;
+}
+img[src$='jpg'],img[src$='png']{
+  border: 1px solid black;
+  border-radius: 5px
+}
+*{
+  margin: 1vh 1vw;
+  }
+/* Agrega estilos a la segunda llave que esta inmediatamente
+despues de la primera referenciada*/
+h1 + h2{
+  text-decoration: underline;
+}
+/*Agrega estilos al hijo de la primera etiqueta  */
+h2 ~ p {
+  text-align: justify;
+  color: white;
+}
+/*Todos los hijos de article que esten marcados con
+la etiqueta h2 llevaran el estilo */
+article> h2 {
+  text-decoration: underline;
+}
+/*Estilos para las listas */
+ul li {
+  list-style-type: circle;
+}

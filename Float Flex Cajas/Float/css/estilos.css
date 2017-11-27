@@ -1,0 +1,35 @@
+header{
+  background-color: rgb(213, 156, 64);
+  width: 100%;
+  height: 120px;
+}
+section{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(133, 195, 226);
+}
+section aside{
+  width: 20%;
+  height: 400px;
+  background-color: rgb(24, 128, 180);
+  float: right;
+}
+section article{
+  width: 80%;
+  height: 400px;
+  background-color: rgb(150, 185, 203);
+  float: left;
+}
+footer{
+  clear: both; /*No podran ubicarse elementos flotantes
+  encima, abajo o a los lados de este*/
+  height: 100px;
+  width: 100%;
+  background-color: rgb(218, 146, 29);
+}
+header img{
+  height: 90%;
+  float:right;
+  padding: 0,5% 2% 0 0;
+
+}

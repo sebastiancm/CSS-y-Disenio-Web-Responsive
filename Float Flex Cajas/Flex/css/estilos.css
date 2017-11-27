@@ -1,0 +1,75 @@
+body {
+  font-size: 10em;
+  font-family: helvetica;
+}
+div [class*="bloque"]{
+  min-height: 200px;
+/*flex-basis: 40%  Todos los items crecen un 40%*/
+ flex: 1 2 40%; /*empareja todas las cajas*/
+}
+
+.bloque1 {
+  color: #ddd;
+  background-color: #FF0000;
+  order: 1;
+  flex-grow: 10
+
+}
+.bloque2 {
+  color: #333;
+  background-color: #00FF99;
+  order: 2;
+  flex-shrink: 2
+
+}
+.bloque3 {
+  color: #333;
+  background-color: #00FFFF;
+  order: 3;
+
+
+}
+.bloque4 {
+  color: #333;
+  background-color: #FFFF00;
+  order: 4;
+
+
+}
+.bloque5 {
+  color: #ddd;
+  background-color: #000000;
+  order: 5;
+
+}
+.bloque6 {
+  color: #333;
+  background-color: #0Fd000;
+  order: 6;
+
+}
+.bloque7 {
+  color: #ddd;
+  background-color: #0000F0;
+  order: 7;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*
+
+.contenedor{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.contenedor{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+*/

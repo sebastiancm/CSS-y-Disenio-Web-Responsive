@@ -1,0 +1,22 @@
+body{
+  margin-left: 20px;
+  font-family: Verdana;
+}
+input[name^=email]{
+  background-color: blue;
+}
+p:nth-child(3){
+  color: red;
+}
+
+p,label/* este estilo se aplica a todos los p o label del texto
+sin importar si se contiene uno a otro o estan sueltos tambien se
+puede escribir 3 o mas ej. p,label,ou*/
+{
+  font-family: Tahoma;
+  color: blue;
+}
+/*solo aplica el estilo a textarea por ser hijo de p*/
+p>textarea{
+  width: 200px;
+}

@@ -1,0 +1,146 @@
+
+body{
+  background-color: black;
+  padding-top: 0px;
+  margin: auto;}
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  float: right;
+  flex direction: row;
+  text-decoration: none;
+  width: 100%;
+  position: fixed;
+  top: 1%;}
+section{
+  width: 100%;
+  height: 400px;
+  background-color: #82c3a6;
+  margin-top: 85px;
+  margin-bottom: 100px;}
+section aside{
+  width: 100%;
+  height: 250px;
+  background-color: #82c3a6; /*#82c3a6;*/}
+section article{
+  width: 100%;
+  height: 250px;
+}
+
+
+div.titulo{
+  text-shadow: 2px 2px #02010a;
+  margin:left;
+    text-decoration: none;
+    color: white;
+}
+
+header nav{
+    margin:auto;
+    margin-right: 2%;
+    text-decoration: none;
+    float: right;
+
+}
+
+.menu a{
+  text-decoration: none;
+  }
+
+aside img{
+  background-color: #82c3a6;
+  height: 90%;
+  display:block;
+  margin: auto;
+  padding-top: 1%;
+}
+
+.contenedor{
+  background-color: #d5c75f;
+  display: flex;
+  flex direction: row;
+  padding-top: 1%;
+}
+
+.imagen2{
+  height: 90%;
+  display:block;
+  margin: auto;
+}
+
+.imagen3{
+  height: 90%;
+  display:block;
+  margin: auto;
+}
+section img{
+height: 90%
+  }
+
+.contenedor2{
+  display:block;
+  display: flex;
+  flex direction: row;
+  padding-bottom: 2%;
+}
+
+.contacto {
+  height: 90%;
+  display:block;
+  margin: auto;
+}
+
+.terminos {
+  height: 90%;
+  display:block;
+  margin: auto;
+}
+
+.redessociales {
+  height: 90%;
+  display:block;
+  margin: auto;
+}
+
+.derechos{
+  height: 90%;
+  display:block;
+  margin: auto;
+}
+
+footer{
+  clear: both;
+  position: fixed;
+  bottom: 1%;
+  height: 100px;
+  width: 100%;
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+}
+
+/*body{
+ background-color: black;
+}
+
+nav{
+  background-color: #5b7989;
+  width: 100%;
+  height: 120px;
+  shadow: 2px;
+  color: #02010a;
+  text-decoration: none;
+}
+
+.nav{
+  margin-bottom: 20px;
+}
+
+#banner a{
+  text-align: left;
+
+}
+
+
+/*  text-align: right;
+ float: left; margin: -10px 100px 2em 2em;*/
